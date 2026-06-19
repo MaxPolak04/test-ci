@@ -1,0 +1,1 @@
+const testowa = "Workflow powinien ruszyć"
