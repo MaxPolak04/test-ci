@@ -9,6 +9,7 @@ on:
 
 jobs:
   triggers:
+    name: Triggers
     runs-on: ubuntu-latest
     steps:
       - run: echo "Wywołanie Workflow'u Triggers"
