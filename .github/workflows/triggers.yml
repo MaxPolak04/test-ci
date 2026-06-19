@@ -1,0 +1,14 @@
+name: Triggers CI
+
+on:
+  push:
+    branches: [ main, 'feature/**' ]
+    paths-ignore: [ 'docs/**' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  triggers:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Wywołanie Workflow'u Triggers"
