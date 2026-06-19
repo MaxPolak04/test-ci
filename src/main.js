@@ -1,3 +1,3 @@
 const testowa = "Workflow powinien ruszyć"
 
-console.log(testowa);
+console.log(testowa); // Powinien się uruchomić
