@@ -1,0 +1,9 @@
+name: Caller
+
+on: push
+
+jobs:
+  call:
+    uses: ./.github/workflows/reusable-ci.yml
+    with: 
+      node-version: '20'
